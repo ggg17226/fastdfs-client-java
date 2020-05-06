@@ -13,7 +13,7 @@ public class ConnectionFactory {
      *
      * @param socketAddress
      * @return
-     * @throws IOException
+     * @throws MyException
      */
     public static Connection create(InetSocketAddress socketAddress) throws MyException {
         try {
